@@ -21,4 +21,4 @@ state+setState(...) becomes useState
   `()=>{}` is whatever it executes
   cdu => useEffect(()=>{},[theVariableWatchedForUpdate])
 
-  useEffect can return a callback function that runs when
+  useEffect can return a callback function that runs when the same effect is triggered the second time for cleaning up, combined with the `[]` as
