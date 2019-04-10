@@ -10,4 +10,15 @@ What are React Hooks?
 
 - Makes sharing (stateful) logic in components easier
 
-From "class" to () =>{...}
+class components become functional components
+state+setState(...) becomes useState
+
+- useState returns `currentState` and `setState` , can be named anything
+  const [currentState,setState]= useState()
+- useEffect
+  useEffect runs after render() and whenever it rerenders
+  cdm => useEffect (()=>{},[])
+  `()=>{}` is whatever it executes
+  cdu => useEffect(()=>{},[theVariableWatchedForUpdate])
+
+  useEffect can return a callback function that runs when
